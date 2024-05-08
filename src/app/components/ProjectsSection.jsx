@@ -7,57 +7,66 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Growthbot PWA",
+    description: "Christian Discipleship Chatbot and Discipler connect App",
+    image: "/images/projects/2.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/vik2ry/whatsapp-v2",
+    previewUrl: "https://whatsapp-v2-dun.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "WhatsApp Web Clone",
+    description: "A clone of WhatsApp web",
+    image: "/images/projects/3.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/vik2ry/whatsappv2",
+    previewUrl: "https://whatsappv2-taupe.vercel.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Cospire",
+    description: "A B2B Space listing and booking startup",
+    image: "/images/projects/4.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/frankarinze/cospire",
+    previewUrl: "https://cospire-dev.web.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Medium Clone",
+    description: "A clone of medium.com",
+    image: "/images/projects/5.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/vik2ry/sanitymedium4L",
+    previewUrl: "https://sanitymedium4-l.vercel.app/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Tree of wally",
+    description: "A social media popularity monitization API",
+    image: "/images/projects/6.png",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/vik2ry/towally",
+    previewUrl: "https://treeofwally.com",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "SpaceX",
+    description: "A customized SpaceX landing page from their API",
+    image: "/images/projects/1.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/Vik2ry/olusegun_banji-frontend-developer",
+    previewUrl: "https://youtu.be/rB2Ornpsnf0",
+  },
+  {
+    id: 7,
+    title: "Blogging CRUD API Tutorial",
+    description: "A Blog CRUD Application",
+    image: "/images/projects/1.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/Vik2ry/nestjs-api-learn",
+    previewUrl: "https://nestjs-api-learn.vercel.app/",
   },
 ];
 
@@ -92,13 +101,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Fullstack"
+          isSelected={tag === "Fullstack"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Backend"
+          isSelected={tag === "Backend"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
