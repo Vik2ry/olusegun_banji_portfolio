@@ -54,7 +54,7 @@ const projectsData = [
     id: 6,
     title: "SpaceX",
     description: "A customized SpaceX landing page from their API",
-    image: "/images/projects/1.png",
+    image: "/images/projects/6.png",
     tag: ["All", "Fullstack"],
     gitUrl: "https://github.com/Vik2ry/olusegun_banji-frontend-developer",
     previewUrl: "https://youtu.be/rB2Ornpsnf0",
