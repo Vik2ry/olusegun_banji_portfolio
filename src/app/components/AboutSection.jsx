@@ -61,11 +61,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          As a software engineer, he is known for a focused, detail oriented 
-          approach that ensures projects are completed on time, on budget and 
-          with optimal quality. This results in a high level of repeat business. 
-          Additionally he believes that my dedication will help bring projects 
-          to successful completion within the expected timescales.
+            Frontend Engineer with experience in JavaScript, TypeScript, React, and Node.js. Skilled in optimizing front-end architecture, developing reusable UI components, and improving user experience. Passionate about solving performance issues, collaborating with teams, and delivering high-quality applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
