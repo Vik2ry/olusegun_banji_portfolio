@@ -68,6 +68,33 @@ const projectsData = [
     gitUrl: "https://github.com/Vik2ry/nestjs-api-learn",
     previewUrl: "https://nestjs-api-learn.vercel.app/",
   },
+  {
+    id: 8,
+    title: "Koinonia Divine Initiative Website",
+    description: "An official website for an international Christian NGO",
+    image: "/images/projects/8.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/Vik2ry/kdi",
+    previewUrl: "https://v0-ngo-site.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Indigitous Search Engine",
+    description: "A Non-copyrighted Search Application",
+    image: "/images/projects/9.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "",
+    previewUrl: "https://v0-indigitoussearch.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "Apologist Chatbot Project",
+    description: "An AI-powered apologetics chatbot SAS",
+    image: "/images/projects/10.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/apologist-project/",
+    previewUrl: "https://apologist.ai/",
+  },
 ];
 
 const ProjectsSection = () => {

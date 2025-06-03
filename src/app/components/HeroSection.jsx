@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Olusegun (Segun) is a 3-year experienced Fullstack engineer who can extend and maintain backend services, and website user interface, collaborate with distributed teams, gather requirements and deliver creative solutions integrated to cloud services.
+          Olusegun (Segun) is a 4-year experienced Fullstack engineer who can extend and maintain backend services, and website user interface, collaborate with distributed teams, gather requirements and deliver creative solutions integrated to cloud services.
 
           </p>
           <div>
