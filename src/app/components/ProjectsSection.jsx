@@ -113,6 +113,15 @@ const projectsData = [
     gitUrl: "https://github.com/vik2ry/scarce2plenty-frontend",
     previewUrl: "https://scarce2plenty.vercel.app/",
   },
+  {
+    id: 13,
+    title: "poll-systems-backend",
+    description: "A Django backend for election polls",
+    image: "/images/projects/13.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/Vik2ry/poll-system-backend",
+    previewUrl: "https://www.loom.com/share/9b102d133e0246bb92f5398e12f7cc46?sid=4d234282-df8e-474e-b821-8100932c1ddd",
+  },
 ];
 
 const ProjectsSection = () => {
