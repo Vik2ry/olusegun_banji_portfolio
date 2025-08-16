@@ -11,7 +11,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>JavaScript | TypeScript | Python</li>
         <li>React | Nextjs | Jest  </li>
-        <li>Express | Flask  </li>
+        <li>Express | Flask | Django  </li>
         <li>MongoDB</li>
         <li>Git | Linux | GraphQL </li>
         <li>Azure | Google Cloud </li>
