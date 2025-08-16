@@ -95,6 +95,24 @@ const projectsData = [
     gitUrl: "https://github.com/apologist-project/",
     previewUrl: "https://apologist.ai/",
   },
+  {
+    id: 11,
+    title: "Light Within Her",
+    description: "An blog website for healing, therapy and spiritual growth",
+    image: "/images/projects/11.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/vik2ry/lightwithinher/",
+    previewUrl: "https://lightwithinher.vercel.app/",
+  },
+  {
+    id: 12,
+    title: "Scarce2plenty",
+    description: "A crowd funding for agricultural goods sales app",
+    image: "/images/projects/12.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "https://github.com/vik2ry/scarce2plenty-frontend",
+    previewUrl: "https://scarce2plenty.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
