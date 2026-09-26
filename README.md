@@ -1,30 +1,30 @@
-# Portfolio Website
+# olusegunbanjiportfoliomain2
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+*Automatically synced with your [v0.app](https://v0.app) deployments*
 
-## Installation
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/matthew-stones-projects/v0-olusegunbanjiportfoliomain2)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/qZ8NDAeH47M)
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+## Overview
 
-## Usage
+This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+## Deployment
 
-## Dependencies
+Your project is live at:
 
-The following dependencies are required for this project:
+**[https://vercel.com/matthew-stones-projects/v0-olusegunbanjiportfoliomain2](https://vercel.com/matthew-stones-projects/v0-olusegunbanjiportfoliomain2)**
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+## Build your app
 
-## License
+Continue building your app on:
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
+**[https://v0.app/chat/projects/qZ8NDAeH47M](https://v0.app/chat/projects/qZ8NDAeH47M)**
 
+## How It Works
+
+1. Create and modify your project using [v0.app](https://v0.app)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository
