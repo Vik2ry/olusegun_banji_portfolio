@@ -677,6 +677,34 @@ export default function Portfolio() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                   <div>
                     <h3 className="text-2xl font-semibold text-blue-400">
+                      CEO and Lead Software Engineer
+                    </h3>
+                    <p className="text-lg text-slate-300">AfriMentor AI · Remote</p>
+                  </div>
+                  <span className="text-slate-400 text-lg">Jul 2026 - Present</span>
+                </div>
+                <div className="text-slate-300 space-y-3 leading-relaxed">
+                  <p>
+                    • CEO and Lead Software Engineer of AfriMentor AI, an LLM mentorship platform for low-income African micro-entrepreneurs that began as my MSSE capstone; smartphone-first and voice-note-driven
+                  </p>
+                  <p>
+                    • Lead the engineering of a 13-microservice, event-driven system (Next.js 16, FastAPI, PostgreSQL, ChromaDB hybrid dense + BM25 retrieval) with a PWA built for low-end Android devices and unreliable connectivity
+                  </p>
+                  <p>
+                    • Lead the RLHF/DPO persona-consistency alignment work on Qwen2.5-7B-Instruct (4-bit NF4 quantization, LoRA), with two research papers in preparation for arXiv
+                  </p>
+                  <p>
+                    • Cut infrastructure cost from about $4,500/month to near $0 by moving to Oracle's free-tier cloud
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-slate-800/30 border-slate-700/50">
+              <CardContent className="p-8">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+                  <div>
+                    <h3 className="text-2xl font-semibold text-blue-400">
                       Lead Full Stack Software Engineer
                     </h3>
                     <p className="text-lg text-slate-300">MangoZest Labs</p>
@@ -722,6 +750,31 @@ export default function Portfolio() {
                   <p>
                     • Collaborated with cross-functional teams to integrate new
                     technologies into existing services
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-slate-800/30 border-slate-700/50">
+              <CardContent className="p-8">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+                  <div>
+                    <h3 className="text-2xl font-semibold text-blue-400">
+                      CEO and Lead Software Engineer
+                    </h3>
+                    <p className="text-lg text-slate-300">Scarce2plenty · Remote</p>
+                  </div>
+                  <span className="text-slate-400 text-lg">Mar 2025 - Present</span>
+                </div>
+                <div className="text-slate-300 space-y-3 leading-relaxed">
+                  <p>
+                    • CEO and Lead Software Engineer of Scarce2plenty, an agricultural crowdfunding and marketplace platform connecting farmers directly with buyers
+                  </p>
+                  <p>
+                    • Built the platform with React.js, Next.js, Firebase and TailwindCSS
+                  </p>
+                  <p>
+                    • An early beta let smallholder farmers test fundraising models
                   </p>
                 </div>
               </CardContent>
