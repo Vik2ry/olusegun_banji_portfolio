@@ -1,30 +1,35 @@
-# olusegunbanjiportfoliomain2
+# olusegunbanji
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/matthew-stones-projects/v0-olusegunbanjiportfoliomain2)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/qZ8NDAeH47M)
+## Built with v0
 
-## Overview
+This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+[Continue working on v0 →](https://v0.app/chat/projects/prj_zqIcKUoplvPH0Th39Lkh33Of9ICs)
 
-## Deployment
+## Getting Started
 
-Your project is live at:
+First, run the development server:
 
-**[https://vercel.com/matthew-stones-projects/v0-olusegunbanjiportfoliomain2](https://vercel.com/matthew-stones-projects/v0-olusegunbanjiportfoliomain2)**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-## Build your app
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Continue building your app on:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**[https://v0.app/chat/projects/qZ8NDAeH47M](https://v0.app/chat/projects/qZ8NDAeH47M)**
+## Learn More
 
-## How It Works
+To learn more, take a look at the following resources:
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+
+<a href="https://v0.app/chat/api/kiro/clone/matthewstonesmooth/olusegunbanji" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>

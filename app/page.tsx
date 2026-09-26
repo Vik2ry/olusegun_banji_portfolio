@@ -23,6 +23,7 @@ import {
   ChevronUp,
   Lock,
   Boxes,
+  Globe,
 } from "lucide-react";
 
 export default function Portfolio() {
@@ -448,20 +449,32 @@ export default function Portfolio() {
                 Hello, I'm Olusegun Banji
               </h3>
               <p className="text-slate-300 leading-relaxed">
-                I'm a full stack engineer who leads. At MangoZest Labs I lead
+                I build AI-powered software for people most products quietly
+                leave out, and I lead the teams that build it. Right now I lead
                 full stack engineering on Andromeda, a hospitality and travel
-                platform, and I've joined Cliniec Health Solutions as a Senior
-                Full Stack Engineer. I care about shipping software people can
-                rely on, and about growing the teams and communities around it.
+                platform, at MangoZest Labs, work as a Senior Full Stack
+                Engineer at Cliniec Health Solutions, and am CEO and Lead
+                Software Engineer of two ventures: AfriMentor AI and
+                Scarce2plenty, an agricultural crowdfunding and marketplace
+                platform that connects farmers directly with buyers.
               </p>
               <p className="text-slate-300 leading-relaxed">
-                Beyond my day job, I'm a community builder. With Indigitous I
+                AfriMentor AI began as my MSSE capstone: a smartphone-first,
+                voice-note-driven LLM mentor for low-income African
+                entrepreneurs, built for low-end Android phones and patchy 3G
+                networks. I led the four-person, three-country team behind it.
+                Our research found that automatic LLM-as-judge scores and
+                blinded human ratings of persona quality disagree, which matters
+                for anyone evaluating persona-aligned models. Both papers are
+                being prepared for arXiv.
+              </p>
+              <p className="text-slate-300 leading-relaxed">
+                Beyond the day job, I'm a community builder. With Indigitous I
                 founded and lead the Ife chapter, lead the South West region,
-                and served as a National Indigitous Mobilizer. I led a
-                four-person, three-country team on AfriMentor AI, built for
-                learners on low-end Android phones and 3G networks. At Cospire,
-                my work on a 5-step booking flow lifted completion by 50% and
-                revenue by 20%.
+                and served as a National Indigitous Mobilizer. At Cospire, my
+                work on a 5-step booking flow lifted completion by 50% and
+                revenue by 20%. I put as much energy into coaching teammates
+                toward their next steps as into the code.
               </p>
               <p className="text-slate-300 leading-relaxed">
                 I'm completing an MSSE at Quantic School of Business and
@@ -575,6 +588,7 @@ export default function Portfolio() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
             {[
               "JavaScript",
+              "FastAPI",
               "TypeScript",
               "Python",
               "React.js",
@@ -582,7 +596,6 @@ export default function Portfolio() {
               "Node.js",
               "NestJS",
               "Django",
-              "FastAPI",
               "Prisma",
               "Tailwind CSS",
               "Firebase",
@@ -639,6 +652,23 @@ export default function Portfolio() {
                     Aug 2026 - Present
                   </span>
                 </div>
+                <div className="text-slate-300 space-y-3 leading-relaxed mt-6">
+                  <p>
+                    • Converted the Cliniec product into a pnpm/Turborepo monorepo of seven Next.js apps and shared packages (UI kit, typed API client, geo data, config)
+                  </p>
+                  <p>
+                    • Built the Pharmacy, Lab and Hospital portals from Figma designs, including dashboards, appointments, results, messaging and reports, and wired the Hospital app to the hospital API
+                  </p>
+                  <p>
+                    • Redesigned the public marketing site and built its portal picker for each vertical
+                  </p>
+                  <p>
+                    • Set up Vercel deployments and a GitHub Actions workflow that mirrors main to a deploy repository
+                  </p>
+                  <p>
+                    • Addressed code-review findings, including a timezone bug, swallowed errors and CI coverage
+                  </p>
+                </div>
               </CardContent>
             </Card>
 
@@ -681,17 +711,17 @@ export default function Portfolio() {
                     infrastructure for a Virtual Call Center
                   </p>
                   <p>
-                    • Acted as a bridge between current system development and
-                    a proposed self-hosted AI engine
+                    • Designed the system architecture for a proposed
+                    self-hosted AI engine and acted as the bridge between the
+                    system under active development and the proposed engine
                   </p>
                   <p>
-                    • Collaborated with cross-functional teams to ensure
-                    seamless integration of new technologies
+                    • Published OpenAPI/Swagger documentation for the Virtual
+                    Call Center and Andromeda backends
                   </p>
                   <p>
-                    • Designed the proposed system architecture for the
-                    self-hosted AI engine, enhancing overall system
-                    capabilities
+                    • Collaborated with cross-functional teams to integrate new
+                    technologies into existing services
                   </p>
                 </div>
               </CardContent>
@@ -907,6 +937,158 @@ export default function Portfolio() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-12 sm:mb-16 text-blue-400">
             Projects
           </h2>
+          {/* Featured: Cliniec monorepo (live sites linked; source is private) */}
+          <Card className="bg-slate-800/30 border-blue-400/40 mb-10 sm:mb-12 overflow-hidden">
+            <CardContent className="p-6 sm:p-8">
+              <div className="flex flex-wrap items-center gap-2 mb-4">
+                <Badge className="bg-blue-400/20 text-blue-300 border border-blue-400/40 hover:bg-blue-400/20">
+                  <Boxes className="w-3 h-3 mr-1" />
+                  Featured Monorepo
+                </Badge>
+                <Badge
+                  variant="outline"
+                  className="border-emerald-400/60 text-emerald-300"
+                >
+                  <Globe className="w-3 h-3 mr-1" />
+                  Live
+                </Badge>
+              </div>
+
+              <h3 className="text-2xl sm:text-3xl font-semibold text-blue-400 mb-3">
+                Cliniec Health
+              </h3>
+              <p className="text-slate-300 leading-relaxed max-w-3xl mb-8">
+                A centralized healthcare technology platform for pharmacies,
+                laboratories and hospitals, built as a pnpm and Turborepo
+                monorepo of seven Next.js apps that share one design system and
+                a typed API client.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8">
+                {[
+                  {
+                    name: "Marketing Site",
+                    role: "Public site with a portal picker for each vertical",
+                    href: "https://www.cliniechealth.com",
+                  },
+                  {
+                    name: "Pharmacy Portal",
+                    role: "Pharmacy and stores dashboard",
+                    href: "https://cliniec-pharmacy.vercel.app",
+                  },
+                  {
+                    name: "Lab Portal",
+                    role: "Labs and diagnostics: appointments, results, messages and directory",
+                    href: "https://cliniec-lab.vercel.app",
+                  },
+                  {
+                    name: "Hospital Portal",
+                    role: "Hospitals and emergencies portal with departments and reports",
+                    href: "https://cliniec-hospital.vercel.app",
+                  },
+                  {
+                    name: "In Progress",
+                    role: "Specialist, patient and admin apps",
+                    href: "",
+                  },
+                  {
+                    name: "Shared Packages",
+                    role: "UI kit, typed API client, geo data and config",
+                    href: "",
+                  },
+                ].map((workspace) =>
+                  workspace.href ? (
+                    <a
+                      key={workspace.name}
+                      href={workspace.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group rounded-lg border border-slate-700/50 bg-slate-900/40 p-4 transition-colors hover:border-blue-400/60 hover:bg-slate-900/70"
+                    >
+                      <p className="font-semibold text-blue-300 text-sm mb-1 flex items-center justify-between">
+                        {workspace.name}
+                        <ExternalLink className="w-3.5 h-3.5 opacity-60 group-hover:opacity-100" />
+                      </p>
+                      <p className="text-slate-400 text-xs leading-relaxed">
+                        {workspace.role}
+                      </p>
+                    </a>
+                  ) : (
+                    <div
+                      key={workspace.name}
+                      className="rounded-lg border border-slate-700/50 bg-slate-900/40 p-4"
+                    >
+                      <p className="font-semibold text-blue-300 text-sm mb-1">
+                        {workspace.name}
+                      </p>
+                      <p className="text-slate-400 text-xs leading-relaxed">
+                        {workspace.role}
+                      </p>
+                    </div>
+                  )
+                )}
+              </div>
+
+              <div className="flex flex-wrap gap-2 mb-8">
+                {[
+                  "Turborepo",
+                  "pnpm Workspaces",
+                  "Next.js",
+                  "React",
+                  "TypeScript",
+                  "Tailwind CSS",
+                  "OpenAPI",
+                  "Figma",
+                  "GitHub Actions",
+                  "Vercel",
+                ].map((tech) => (
+                  <Badge
+                    key={tech}
+                    variant="outline"
+                    className="border-slate-600 text-slate-300 text-xs"
+                  >
+                    {tech}
+                  </Badge>
+                ))}
+              </div>
+
+              <div className="rounded-lg border border-blue-400/30 bg-blue-400/5 p-5 sm:p-6">
+                <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                  The sites above are live. The source is a private company
+                  repository, so get in touch if you would like a walkthrough.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Button
+                    size="sm"
+                    className="bg-blue-500 hover:bg-blue-600 text-white"
+                    onClick={() =>
+                      window.open("https://www.cliniechealth.com", "_blank")
+                    }
+                  >
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Visit cliniechealth.com
+                  </Button>
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white bg-transparent"
+                    onClick={() =>
+                      window.open(
+                        "https://wa.me/2349064171781?text=" +
+                          encodeURIComponent(
+                            "Hi Olusegun, I saw the Cliniec monorepo on your portfolio and I'd like to know more."
+                          ),
+                        "_blank"
+                      )
+                    }
+                  >
+                    <MessageCircle className="w-4 h-4 mr-2" />
+                    Ask me about it
+                  </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
 
           {/* Featured: AfriMentor AI (team-led project) */}
           <Card className="bg-slate-800/30 border-blue-400/40 mb-10 sm:mb-12 overflow-hidden">

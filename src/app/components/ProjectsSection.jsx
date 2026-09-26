@@ -122,6 +122,27 @@ const projectsData = [
     gitUrl: "https://github.com/Vik2ry/poll-system-backend",
     previewUrl: "https://www.loom.com/share/9b102d133e0246bb92f5398e12f7cc46?sid=4d234282-df8e-474e-b821-8100932c1ddd",
   },
+  {
+    id: 14,
+    title: "Andromeda Platform",
+    description:
+      "Developer platform backend with OpenAPI docs and JWT auth (FastAPI)",
+    image: "/images/projects/14.png",
+    tag: ["All", "Backend"],
+    gitUrl: "",
+    previewUrl:
+      "https://andromedadev-backend.dev.andromeda.mangozestlabs.com/docs",
+  },
+  {
+    id: 15,
+    title: "Virtual Call Center",
+    description:
+      "Virtual Call Center backend and UI components with conversational AI (FastAPI)",
+    image: "/images/projects/15.png",
+    tag: ["All", "Fullstack"],
+    gitUrl: "",
+    previewUrl: "",
+  },
 ];
 
 const ProjectsSection = () => {
